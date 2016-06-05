@@ -63,7 +63,7 @@
 								<font size="3" color="#009999" style="margin-left: 30px;"><strong>状态：单身狗</strong></font>
 							</div><div style="clear: both;"></div>
 							<div style="margin-top: 15px; width: 350px; float: left;">
-								<font size="3" color="#009999" style="margin-left: 30px;"><strong>QQ：2116913961&nbsp;(不是妹子我不加)</strong></font>
+								<font size="3" color="#009999" style="margin-left: 30px;"><strong>QQ：2116913961(不是妹子我不加)</strong></font>
 							</div><div style="clear: both;"></div>
 						</div>
 					</div>
@@ -71,34 +71,17 @@
 			</div>
 			<hr style="margin-top: 40px; margin-bottom: 40px;"/>
 			<div class="row" style="padding: 0px 100px 0px 100px;">
-				<div class="_box">
-					<div style="float: left;">
-						<a href="blog01.html" style="color: #ff9900;"><font size="4"><strong>树状数组</strong></font></a>
+				<div style="margin-bottom: 20px;">
+					<font size="3" style="margin-left: 33px;"><strong>这些是我以前画的画，基本上都是上大学前画的，上了大学后渐渐变得没时间画画了。这是件很嘲讽的事情，上了大学反而感觉更加没时间了，因为所选专业比较坑爹，要想学好只能砸大量时间下去，满满地也忘记了自己当初的梦想。也许，真的是也许，我会选择画一些简单的漫画挂在我的博客上。</strong></font></div>
+					<div style="text-align: center;">
+						<img alt="Bootstrap Image Preview" src="images/cartoon01.jpg" style=" margin-right: 20px;"/>
+						<img alt="Bootstrap Image Preview" src="images/cartoon02.jpg" style=" margin-right: 20px;"/>
+						<img alt="Bootstrap Image Preview" src="images/cartoon03.jpg" style=" margin-right: 20px;"/>
+						<img alt="Bootstrap Image Preview" src="images/cartoon04.jpg" style=" margin-right: 20px;"/>
+						<img alt="Bootstrap Image Preview" src="images/cartoon05.jpg" class="" style=" margin-right: 20px;"/>
+						<img alt="Bootstrap Image Preview" src="images/cartoon06.jpg" class="" style=" margin-right: 20px;"/>
+						<img alt="Bootstrap Image Preview" src="images/cartoon07.jpg" class="" style=" margin-right: 20px;"/>
 					</div>
-					<div style="float: right;">
-						<font size="4" color="#acacac">2016/6/5</font>
-					</div>
-					<div style="clear: both;"></div>		
-				</div>
-				<div class="_box">
-					<div style="float: left;">
-						<a href="cartoon.html" style="color: #ff9900;"><font size="4"><strong>图集</strong></font></a>
-					</div>
-					<div style="float: right;">
-						<font size="4" color="#acacac">2016/6/5</font>
-					</div>
-					<div style="clear: both;"></div>
-					</div>
-				<div class="_box">
-					<div style="float: left;">
-						<a href="blogtest.html" style="color: #ff9900;"><font size="4"><strong>第一篇用于测试</strong></font></a>
-					</div>
-					<div style="float: right;">
-						<font size="4" color="#acacac">2016/6/5</font>
-					</div>
-					<div style="clear: both;"></div>
-				</div>
-				
 			</div>
 		</div>
 	</div>

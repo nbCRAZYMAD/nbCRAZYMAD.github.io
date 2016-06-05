@@ -34,7 +34,7 @@
 		<div class="col-md-12">
 			<div class="row" style="margin-bottom: 40px;">
 				<div class="col-md-12" style="text-align: center;">
-					<h1>
+					<h1 style="color: #009999">
 						<strong>宇宙第一帅的crazy_mad的学习博客</strong>
 					</h1>
 				</div>
@@ -62,12 +62,33 @@
 							<div style="margin-top: 15px; width: 250px; float: left;">
 								<font size="3" color="#009999" style="margin-left: 30px;"><strong>状态：单身狗</strong></font>
 							</div><div style="clear: both;"></div>
+							<div style="margin-top: 15px; width: 350px; float: left;">
+								<font size="3" color="#009999" style="margin-left: 30px;"><strong>QQ：2116913961&nbsp;(不是妹子我不加)</strong></font>
+							</div><div style="clear: both;"></div>
 						</div>
 					</div>
 				</div>
 			</div>
 			<hr style="margin-top: 40px; margin-bottom: 40px;"/>
 			<div class="row" style="padding: 0px 100px 0px 100px;">
+				<div class="_box">
+					<div style="float: left;">
+						<a href="cartoon.html" style="color: #ff9900;"><font size="4"><strong>树状数组</strong></font></a>
+					</div>
+					<div style="float: right;">
+						<font size="4" color="#acacac">2016/6/5</font>
+					</div>
+					<div style="clear: both;"></div>		
+				</div>
+				<div class="_box">
+					<div style="float: left;">
+						<a href="cartoon.html" style="color: #ff9900;"><font size="4"><strong>图集</strong></font></a>
+					</div>
+					<div style="float: right;">
+						<font size="4" color="#acacac">2016/6/5</font>
+					</div>
+					<div style="clear: both;"></div>
+					</div>
 				<div class="_box">
 					<div style="float: left;">
 						<a href="blogtest.html" style="color: #ff9900;"><font size="4"><strong>第一篇用于测试</strong></font></a>
@@ -77,6 +98,7 @@
 					</div>
 					<div style="clear: both;"></div>
 				</div>
+				
 			</div>
 		</div>
 	</div>
