@@ -17,16 +17,21 @@
 		.hint {
 			display: block;
 			position: fixed;
-			padding: 5px 5px 5px 5px;
+			padding: 6px 6px 6px 6px;
+			top: 0px;
+			left: 0px;
+			background-color: #f8f7e0;
+			z-index: 99;
+			border: 1px solid #000;
 		}
 		.fixed {
 			display: block;
 			position: fixed;
-			width: 50px;
-			height: 300px;
 			right: 100px;
 			top: 200px;
 			border: 0px solid #000;
+			width: 50px;
+			height: 300px;
 		}
 		._box {
 			padding: 10px 10px 10px 20px;
@@ -36,12 +41,40 @@
 			border-radius: 5px;
 		}
 	</style>
+	<script src="js/jquery.js"></script>
+	<script src="js/myselfs.js">
+	
+
+	/*$(function(){
+		var str1 = "";
+		var str2 = "";
+		
+		
+		$("#index").hover(function(e){
+			
+			pointY += 10;
+			str1 += pointX + "px";
+			str2 += pointY + "px";
+			$("#hint").css("left", str1).css("top", str2).show().text("返回首页")
+		})
+		
+	});
+	/*$(function(){
+        $(document).hover(function(event){
+            $("#hint").css({
+                left: event.pageX,
+                top: event.pageY,
+            });
+        })
+    })*/
+	</script>
   </head>
   <body>
-	<div class="hint">
+	<div class="hint" id="hint">草泥马</div>
 	<div class="fixed">
-			<a href="#"><img alt="Bootstrap Image Preview" src="images/top.png" class="img-circle" style="float: right;"/></a>
-		<a href="index.html"><img alt="Bootstrap Image Preview" src="images/index.png" class="img-circle" style="float: right;"/></a>
+		<a href="#" id="top"><img alt="Bootstrap Image Preview" src="images/gotop.png" class="img-circle" style="float: right;"/></a><br />
+		<a href="index.html" id="index"><img alt="Bootstrap Image Preview" src="images/index.png" class="img-circle" style="float: right;"/></a>	
+		<a href="#afterbottom" id="bottom"><img alt="Bootstrap Image Preview" src="images/gobottom.png" class="img-circle" style="float: right;"/></a>		
 	</div>
     <div class="container-fluid">
 	<div class="row">
@@ -124,9 +157,9 @@
 		<div class="col-md-12">
 		</div>
 	</div>
-</div>
-
-    <script src="js/jquery.min.js"></script>
+	</div>
+	<div id="afterbottom"></div>
+    
     <script src="js/bootstrap.min.js"></script>
     <script src="js/scripts.js"></script>
   </body>

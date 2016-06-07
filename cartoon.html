@@ -14,6 +14,16 @@
     <link href="css/style.css" rel="stylesheet">
 	
 	<style>
+		.hint {
+			display: block;
+			position: fixed;
+			padding: 6px 6px 6px 6px;
+			top: 0px;
+			left: 0px;
+			background-color: #f8f7e0;
+			z-index: 99;
+			border: 1px solid #000;
+		}
 		.fixed {
 			display: block;
 			position: fixed;
@@ -31,11 +41,16 @@
 			border-radius: 5px;
 		}
 	</style>
+	<script src="js/jquery.js"></script>
+	<script src="js/myselfs.js">
+	</script>
   </head>
   <body>
+	<div class="hint" id="hint">草泥马</div>
 	<div class="fixed">
-		<a href="#"><img alt="Bootstrap Image Preview" src="images/top.png" class="img-circle" style="float: right;"/></a>
-		<a href="index.html"><img alt="Bootstrap Image Preview" src="images/index.png" class="img-circle" style="float: right;"/></a>
+		<a href="#" id="top"><img alt="Bootstrap Image Preview" src="images/gotop.png" class="img-circle" style="float: right;"/></a><br />
+		<a href="index.html" id="index"><img alt="Bootstrap Image Preview" src="images/index.png" class="img-circle" style="float: right;"/></a>	
+		<a href="#afterbottom" id="bottom"><img alt="Bootstrap Image Preview" src="images/gobottom.png" class="img-circle" style="float: right;"/></a>
 	</div>
     <div class="container-fluid">
 	<div class="row">
@@ -102,8 +117,8 @@
 		</div>
 	</div>
 </div>
+	<div id="afterbottom"></div>
 
-    <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/scripts.js"></script>
   </body>

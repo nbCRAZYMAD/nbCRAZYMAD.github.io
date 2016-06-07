@@ -1,0 +1,53 @@
+$(function(){
+	var str1 = "";
+	var str2 = "";
+	var pointX = 0;
+	var pointY = 0;
+	var flag = true;
+
+	$("#hint").hide();
+
+	$("#top").mouseover(function(e){
+		if (flag)
+		{
+			alert(e.pageY);
+			$("#hint").show().css({
+				"top": e.clientY+20,
+				"left": e.clientX+20
+			}).text("返回顶部");
+			flag = true;
+		}
+	});
+	$("#top").mouseleave(function(){
+		$("#hint").hide();
+		flag = true;
+	});
+	$("#index").mouseover(function(e){
+		if (flag)
+		{
+			$("#hint").show().css({
+				"top": e.clientY+20,
+				"left": e.clientX+20
+			}).text("返回首页");
+			flag = true;
+		}
+	});
+	$("#index").mouseleave(function(){
+		$("#hint").hide();
+		flag = true;
+	});
+	$("#bottom").mouseover(function(e){
+		if (flag)
+		{
+			$("#hint").show().css({
+				"top": e.clientY+20,
+				"left": e.clientX+20
+			}).text("返回底部");
+			flag = true;
+		}
+	});
+	$("#bottom").mouseleave(function(){
+		$("#hint").hide();
+		flag = true;
+	});
+});
